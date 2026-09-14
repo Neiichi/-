@@ -13,13 +13,13 @@
         <div class="container">
             <div class="header__wrap">
                 <a href="index.html" class="header__logo">
-                    <img src="img/tula-coat-of-arms.png" alt="Герб Тулы" class="header__coat">
-                    <img src="img/logo1.jpg" alt="Логотип ТА «Отдых»" class="header__logo-img">
+                    <img src="tula-coat-of-arms.png" alt="Герб Тулы" class="header__coat">
+                    <img src="logo1.jpg" alt="Логотип ТА «Отдых»" class="header__logo-img">
                 </a>
                 <nav class="nav">
                     <a href="index.html" class="nav__link">Главная</a>
                     <a href="tours.html" class="nav__link">Карта туров</a>
-                    <a href="individual.html" class="nav__link">Индивидуальные туры</a>
+                    <a href="individual.html" class="nav__link nav__link--active">Индивидуальные туры</a>
                     <a href="about.html" class="nav__link">О нас</a>
                     <a href="dictionary.html" class="nav__link">Словарь</a>
                 </nav>
@@ -82,11 +82,10 @@
                       method="POST"
                       novalidate>
 
-                    <!-- Скрытые поля FormSubmit -->
                     <input type="hidden" name="_subject" value="Новая заявка на индивидуальный тур с сайта ТА «Отдых»">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="hidden" name="_template" value="table">
-                    <input type="hidden" name="_next" value="https://litnice8.github.io/LeoMeM/individual.html">
+                    <input type="hidden" name="_next" value="https://otdihta.pages.dev/individual.html">
 
                     <div class="form__row">
                         <div class="form__field">
@@ -247,4 +246,5 @@
     </footer>
 
 </body>
+</html>
 </html>
