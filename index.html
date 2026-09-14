@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туристическое агентство «Отдых» — экскурсии по Туле и Тульской области</title>
+    <meta name="description" content="Туристическое агентство «Отдых» в Туле. Экскурсии для школьников и взрослых по Туле, Ясной Поляне, Куликову полю. Мастер-классы, квесты, индивидуальные туры.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__wrap">
+                <a href="index.html" class="header__logo">
+                    <img src="img/tula-coat-of-arms.png" alt="Герб Тулы" class="header__coat">
+                    <img src="img/logo1.jpg" alt="Логотип ТА «Отдых»" class="header__logo-img">
+                </a>
+                <nav class="nav">
+                    <a href="index.html" class="nav__link nav__link--active">Главная</a>
+                    <a href="tours.html" class="nav__link">Карта туров</a>
+                    <a href="individual.html" class="nav__link">Индивидуальные туры</a>
+                    <a href="about.html" class="nav__link">О нас</a>
+                    <a href="dictionary.html" class="nav__link">Словарь</a>
+                </nav>
+                <div class="header__contacts">
+                    <a href="tel:+79107033029" class="header__phone">+7 910 703-30-29</a>
+                    <a href="mailto:otdyh-tula@mail.ru" class="header__email">otdyh-tula@mail.ru</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Экскурсии по Туле<br>
+                    <span class="hero__title-accent">и Тульской области</span>
+                </h1>
+                <p class="hero__text">
+                    Туристическое агентство «Отдых» организует однодневные и многодневные туры
+                    для школьных групп и взрослых туристов. Ясная Поляна, Куликово поле,
+                    Тульский Кремль, музеи оружия и пряника — всё в одном месте.
+                </p>
+                <div class="hero__buttons">
+                    <a href="tours.html" class="btn btn--primary">Смотреть туры</a>
+                    <a href="individual.html" class="btn btn--outline">Индивидуальный тур</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits__grid">
+
+                <div class="benefit">
+                    <div class="benefit__icon">🏛️</div>
+                    <h3 class="benefit__title">Более 50 музеев</h3>
+                    <p class="benefit__text">Тульский Кремль, музей оружия, Ясная Поляна, Куликово поле и другие объекты.</p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit__icon">🎓</div>
+                    <h3 class="benefit__title">Для школьных групп</h3>
+                    <p class="benefit__text">Однодневные и трёхдневные программы для 1–11 классов с учётом возраста.</p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit__icon">🚌</div>
+                    <h3 class="benefit__title">Трансфер и питание</h3>
+                    <p class="benefit__text">Организуем проезд на нашем или вашем транспорте, обеды в кафе и ресторанах.</p>
+                </div>
+
+                <div class="benefit">
+                    <div class="benefit__icon">🎨</div>
+                    <h3 class="benefit__title">Мастер-классы и квесты</h3>
+                    <p class="benefit__text">Роспись пряников и филимоновской игрушки, морской бой, тайны старого чемодана.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="tours-preview">
+        <div class="container">
+            <h2 class="section-title">Популярные туры</h2>
+
+            <div class="tours-preview__grid">
+
+                <a href="tours.html#yasnaya" class="tour-card" data-tour-id="yasnaya-estate">
+                    <img src="" alt="Ясная Поляна" class="tour-card__img">
+                    <div class="tour-card__body">
+                        <h3 class="tour-card__title">Ясная Поляна</h3>
+                        <p class="tour-card__text">Музей-усадьба Л.Н. Толстого, Козлова Засека, прогулка по аллеям.</p>
+                        <span class="tour-card__price">по запросу</span>
+                    </div>
+                </a>
+
+                <a href="tours.html#kuli" class="tour-card" data-tour-id="kuli-museum">
+                    <img src="" alt="Куликово поле" class="tour-card__img">
+                    <div class="tour-card__body">
+                        <h3 class="tour-card__title">Куликово поле</h3>
+                        <p class="tour-card__text">Монастырщино, Красный Холм, музей Куликовской битвы.</p>
+                        <span class="tour-card__price">по запросу</span>
+                    </div>
+                </a>
+
+                <a href="tours.html#tula" class="tour-card" data-tour-id="tula-kremlin">
+                    <img src="" alt="Тульский Кремль" class="tour-card__img">
+                    <div class="tour-card__body">
+                        <h3 class="tour-card__title">Тульский Кремль</h3>
+                        <p class="tour-card__text">Кремль, музей оружия, музей самоваров, набережная.</p>
+                        <span class="tour-card__price">по запросу</span>
+                    </div>
+                </a>
+
+                <a href="tours.html#venev" class="tour-card" data-tour-id="venev">
+                    <img src="" alt="Венёв" class="tour-card__img">
+                    <div class="tour-card__body">
+                        <h3 class="tour-card__title">Венёв и 12 ключей</h3>
+                        <p class="tour-card__text">Старинные храмы, Николо-Успенский монастырь, святой источник.</p>
+                        <span class="tour-card__price">по запросу</span>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-preview__grid">
+                <div class="about-preview__text">
+                    <h2 class="section-title section-title--left">О компании</h2>
+                    <p>
+                        Общество с ограниченной ответственностью «Туристическое агентство «Отдых»» —
+                        тульская компания, которая организует экскурсии по Туле
+                        и Тульской области с 2016 года.
+                    </p>
+                    <p>
+                        Мы работаем с школьными группами, семьями и взрослыми туристами.
+                        Организуем как однодневные поездки, так и многодневные туры
+                        по Тульской области и соседним регионам.
+                    </p>
+                    <a href="about.html" class="btn btn--primary">Подробнее о нас</a>
+                </div>
+                <div class="about-preview__info">
+                    <div class="info-card">
+                        <div class="info-card__label">Адрес</div>
+                        <div class="info-card__value">300012, г. Тула, пр-т Ленина 79, офис 1.11</div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card__label">Телефон</div>
+                        <div class="info-card__value"><a href="tel:+79107033029">+7 910 703-30-29</a></div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card__label">E-mail</div>
+                        <div class="info-card__value"><a href="mailto:otdyh-tula@mail.ru">otdyh-tula@mail.ru</a></div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card__label">Директор</div>
+                        <div class="info-card__value">Илясова Галина Викторовна</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+
+                <div class="footer__col">
+                    <div class="footer__title">ТА «Отдых»</div>
+                    <p class="footer__text">
+                        ООО «Туристическое агентство «Отдых»<br>
+                        300012, г. Тула, пр-т Ленина 79, офис 1.11
+                    </p>
+                </div>
+
+                <div class="footer__col">
+                    <div class="footer__title">Разделы</div>
+                    <ul class="footer__list">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="tours.html">Карта туров</a></li>
+                        <li><a href="individual.html">Индивидуальные туры</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="dictionary.html">Словарь</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <div class="footer__title">Контакты</div>
+                    <ul class="footer__list">
+                        <li><a href="tel:+79107033029">+7 910 703-30-29</a></li>
+                        <li><a href="mailto:otdyh-tula@mail.ru">otdyh-tula@mail.ru</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <div class="footer__title">Реквизиты</div>
+                    <p class="footer__text footer__text--small">
+                        ИНН 7106058557<br>
+                        КПП 710601001<br>
+                        ОГРН 1167154083370
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="footer__bottom">
+                © 2016–2026 ООО «Туристическое агентство «Отдых». Все права защищены.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    const toursData = {
+        "yasnaya-estate": {
+            photos: ["img/tour-yasnaya-estate-1.jpg", "img/tour-yasnaya-estate-2.jpg", "img/tour-yasnaya-estate-3.jpg"]
+        },
+        "kuli-museum": {
+            photos: ["img/tour-kuli-1.jpg", "img/tour-kuli-2.jpg", "img/tour-kuli-3.jpg"]
+        },
+        "tula-kremlin": {
+            photos: ["img/tour-kremlin-1.jpg", "img/tour-kremlin-2.jpg", "img/tour-kremlin-3.jpg"]
+        },
+        "venev": {
+            photos: ["img/tour-venev-1.jpg", "img/tour-venev-2.jpg", "img/tour-venev-3.jpg"]
+        }
+    };
+
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('.tour-card').forEach(function (card) {
+            const id = card.dataset.tourId;
+            const tour = toursData[id];
+            const img = card.querySelector('.tour-card__img');
+            if (tour && img && tour.photos && tour.photos.length > 0) {
+                img.src = tour.photos[0];
+                img.alt = card.querySelector('.tour-card__title') ? card.querySelector('.tour-card__title').textContent : '';
+            }
+        });
+    });
+    </script>
+
+</body>
+</html>
